@@ -12,7 +12,7 @@ bash_profile=$HOME/.bash_profile
 if [ -f "$bash_profile" ]; then
     . $HOME/.bash_profile
 fi
-sleep 1 && curl -s https://raw.githubusercontent.com/CoinHuntersTR/Andromeda-Testnet-Rehberi/main/logo.sh | bash && sleep 1
+sleep 1 && curl -s https://raw.githubusercontent.com/mahsumyigit/Andromeda-Testnet-Rehberi/main/logo.sh | bash && sleep 1
 
 read -p "Cüzdan İsmi Giriniz:" WALLET
 echo 'export WALLET='$WALLET
